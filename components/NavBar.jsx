@@ -10,13 +10,14 @@ const NavBar = () => {
     height={100}
     width={100}
     alt=""
+    href="/"
     />
     <ul className='flex justify-between space-x-6'>
         <li>Home</li>
-        <li>About</li>
+        <Link href="/about"><li>About</li></Link>
         <li>Services</li>
-        <li>Work</li>
-        <li>Contact</li>
+        <Link href="/work"><li>Work</li></Link>
+        <Link href="/contact"><li>Contact</li></Link>
     </ul>
 
     <div>Contact</div>
